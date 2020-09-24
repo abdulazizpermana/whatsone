@@ -1,0 +1,94 @@
+
+body {
+   font-family: sans-serif;
+}
+* {
+   box-sizing: border-box;
+}
+.
+.jumborton h1 {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #00c8eb;
+   text-align: center;
+   color: white;
+}
+header {
+   display: inline;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 50px;
+}
+nav {
+   background-color: grey;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+nav a:hover {
+   font-weight: bold;
+}
+main {
+   overflow: auto;
+}
+.display {
+   color: white;
+   width: 100%;
+   padding: 10px 20px;
+   background-color: #333333;
+   border: 1px solid black;
+   font-size: 2em;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 30px;
+   margin-top: 20px;
+   text-align: justify;
+}
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+.profile img {
+   width: 200px;
+}
+#content {
+   float: left;
+   width: 75%;
+}
+#content p{
+	text-indent: 40px;
+}
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+.clear{
+	clear: both;
+}
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+.footer {
+   padding: 20px;
+   color: white;
+   background-color: grey;
+   text-align: center;
+   font-weight: bold;
+}
